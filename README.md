@@ -9,7 +9,7 @@ For installing OpenCV you can visit this wonderful tutorial (and remember to hav
 
 	https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 
-The rest are really straight forward:
+The others are really straight forward:
 
 	sudo apt-get install python-pip
 	pip install picamera
