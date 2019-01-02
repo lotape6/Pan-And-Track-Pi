@@ -40,12 +40,12 @@ def click_and_crop(event, x, y, flags, param):
 
 
 # Are we using the Pi Camera?
-usingPiCamera = False #True
+usingPiCamera = True #False
 # Set initial frame size.
 frameSize = (320, 240)
 
 # Initialize mutithreading the video stream.
-vs = VideoStream(src=0, usePiCamera=0, resolution=frameSize, #usePiCamera=usingPiCamera
+vs = VideoStream(src=0, usePiCamera=usingPiCamera, resolution=frameSize, #usePiCamera=usingPiCamera
         framerate=32).start()
 # Allow the camera to warm up.
 time.sleep(2.0)
