@@ -1,0 +1,1 @@
+        connection.write(stream.read())
