@@ -14,7 +14,7 @@ The others are really straight forward:
 	sudo apt-get install python-pip
 	pip install picamera
 	pip install imutils
-	pip install pid
+	wget https://raw.githubusercontent.com/ivmech/ivPID/master/PID.py
 	pip install RPi.GPIO
 	pip install socket
 	pip install pil
