@@ -18,9 +18,3 @@ The others are really straight forward:
 	pip install RPi.GPIO
 	pip install socket
 	pip install pil
-
-## Start Guide
-
-Firstly, run server_script on your server.
-Secondly, run client_script on Raspberry Pi. NOTE: Remember to specify the correct server address
-Finally, select an object to track on "Stream" window and let the system do the rest :)
